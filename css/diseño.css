@@ -216,6 +216,13 @@ footer a img{
     flex-wrap: wrap;
 }
 
+.juegazos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
 /*------------accesorios------------*/
 
 .hero3{
@@ -259,6 +266,12 @@ footer a img{
     flex-wrap: wrap;
 }
 
+.acces2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 
 /*------------noticias------------*/
 
@@ -280,9 +293,22 @@ footer a img{
 }
 
 .noticias1 img{
-    width: 250px;
+    width: 200px;
     height: 150px;
 }
+
+.noticias1 .div1 {
+    margin: 10px;
+}
+
+.noticias1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
 
 /*------------mas info------------*/
 
