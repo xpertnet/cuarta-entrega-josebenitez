@@ -17,10 +17,14 @@ h2{
     font-family: serif;
 }
 
+header{
+    background-color: rgb(34, 114, 164);
+    display: flex;
+}
+
 nav ul{
     list-style-type: none;
     background-color: rgb(34, 114, 164);
-    text-align: center;
 }
 
 nav ul li a{
@@ -30,7 +34,8 @@ nav ul li a{
 
 nav ul li {
     display: inline-block;
-    margin: 30px;
+    margin: 20px;
+    font-size: 20px;
 }
 
 h5{
@@ -38,6 +43,19 @@ h5{
     width: 150px;
     height: 100%;
     text-align: center;
+    font-size: 20px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h6{
+    font-family: serif;
+    font-size: 2rem;
+    background-color: rgb(34, 114, 164);
+    display: inline-block;
+    border: 2px solid black;
 }
 
 .h555{
@@ -64,11 +82,14 @@ h5{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h2{
     font-size: 80px;
-    display: inline-block;
     color: rgb(47, 47, 47);
 }
 
@@ -85,7 +106,7 @@ h3{
     color: black;
 }
 
-.jueguitos div{
+.jueguitos .jueguitos-contenedor div{
     border: 2px solid gray;
     width: 250px;
     height: 350px;
@@ -99,7 +120,7 @@ h3{
     color: black;
 }
 
-.acces1 div{
+.acces1 .acces1-contenedor div{
     border: 2px solid gray;
     width: 250px;
     height: 350px;
@@ -133,7 +154,7 @@ h3{
 
 .UltimasNoticias img{
     width: 250px;
-    height: 250px;
+    height: 200px;
 }
 
 a {
@@ -150,13 +171,13 @@ footer a{
 }
 
 footer a img{
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
 }
 
 .div1{ 
     display: flex;
-    
+    margin: 10px;
 }
 
 .jueguitos{
@@ -184,6 +205,10 @@ footer a img{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero2 h2{
@@ -234,6 +259,10 @@ footer a img{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero3 h2{
@@ -284,6 +313,10 @@ footer a img{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero4 h2{
@@ -321,6 +354,10 @@ footer a img{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero5 h2{
@@ -329,6 +366,3 @@ footer a img{
     color: rgb(47, 47, 47);
 }
 
-.pie p{
-    text-align: left;
-}
