@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>GamesStar</title>
-    https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
     <link rel="stylesheet" href="./css/diseño.css">
 </head>
+
 <body>
     <header class="menu">
-        <h1>GamesStar</h1>
         <nav>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
@@ -25,31 +27,74 @@
         <section class="hero">
             <h2>¡Bienvenidos a GamesStar!</h2>
         </section>
-                <section class="jueguitos" >
-                    <div class="h333">
-                    <h3>Juegos</h3>
+        <section class="carrusel">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/personajes.jpeg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="jueguitos-contenedor">
-                        <div>
-                            <img src="./img/god of war ragnarok.jpeg" alt="God of War">
-                            <a href=""><h4>God of War</h4></a>
-                        </div>
-                        <div>
-                            <img src="./img/remnant from the ashes.jpg" alt="remnant from the ashes">
-                            <a href=""><h4>Remnant from the ashes</h4></a>
-                        </div>
-                        <div>
-                            <img src="./img/elden ring.jpeg" alt="Elden Ring">
-                            <a href=""><h4>Elden Ring</h4></a>
-                        </div>
-                        <div>
-                            <img src="./img/sifu.jpeg" alt="Sifu">
-                            <a href=""><h4>Sifu</h4></a>
-                        </div>
+                    <div class="carousel-item">
+                        <img src="./img/ventajuegos.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="h555">
-                    <a href="./pages/juegos.html"><h5 class="ver">VER TODOS</h5></a>
+                    <div class="carousel-item">
+                        <img src="./img/jugandoplay1.jpg" class="d-block w-100" alt="...">
                     </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="jueguitos">
+            <div class="h333">
+                <h3>Juegos</h3>
+            </div>
+            <div class="jueguitos-contenedor">
+                <div>
+                    <img src="./img/god of war ragnarok.jpeg" alt="God of War">
+                    <a href="">
+                        <h4>God of War</h4>
+                    </a>
+                </div>
+                <div>
+                    <img src="./img/remnant from the ashes.jpg" alt="remnant from the ashes">
+                    <a href="">
+                        <h4>Remnant from the ashes</h4>
+                    </a>
+                </div>
+                <div>
+                    <img src="./img/elden ring.jpeg" alt="Elden Ring">
+                    <a href="">
+                        <h4>Elden Ring</h4>
+                    </a>
+                </div>
+                <div>
+                    <img src="./img/sifu.jpeg" alt="Sifu">
+                    <a href="">
+                        <h4>Sifu</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="h555">
+                <a href="./pages/juegos.html">
+                    <h5 class="ver">VER TODOS</h5>
+                </a>
+            </div>
         </section>
         <section class="acces1">
             <div class="h333">
@@ -58,23 +103,33 @@
             <div class="acces1-contenedor">
                 <div>
                     <img src="./img/joystick ps4.jpeg" alt="Joystick ps4">
-                    <a href=""><h4>joystick ps4</h4></a>
+                    <a href="">
+                        <h4>joystick ps4</h4>
+                    </a>
                 </div>
                 <div>
                     <img src="./img/joystick ps5.jpeg" alt="Joystick ps5">
-                    <a href=""><h4>joystick ps4</h4></a>
+                    <a href="">
+                        <h4>joystick ps4</h4>
+                    </a>
                 </div>
                 <div>
                     <img src="./img/teclado.jpg" alt="Teclado basico">
-                    <a href=""><h4>Teclado Basico</h4></a>
+                    <a href="">
+                        <h4>Teclado Basico</h4>
+                    </a>
                 </div>
                 <div>
                     <img src="./img/mouse redragon.jpeg" alt="Mouse Redragon">
-                    <a href=""><h4>Mouse Redragon</h4></a>
+                    <a href="">
+                        <h4>Mouse Redragon</h4>
+                    </a>
                 </div>
             </div>
             <div class="h555">
-            <a href="./pages/accesorios.html"><h5>VER TODOS</h5></a>
+                <a href="./pages/accesorios.html">
+                    <h5>VER TODOS</h5>
+                </a>
             </div>
         </section>
         <section class="UltimasNoticias">
@@ -84,40 +139,60 @@
             <div class="div1">
                 <img src="./img/ganancias.jpeg" alt="">
                 <div>
-                <a href=""><h4>Las ganancias de dark souls estan por las nubes</h4></a>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam amet ratione pariatur nisi voluptas porro ipsam a eos, maiores, corporis, minus expedita mollitia animi repellat. Obcaecati magnam numquam officiis!</P>
-            </div>
+                    <a href="">
+                        <h4>Las ganancias de dark souls estan por las nubes</h4>
+                    </a>
+                    <P>El aclamado juego "Dark Souls" no solo a alcanzado las tan irreales cifras que se esperaban de
+                        ganancias de este mismo, si no que las ha superado con creces! En un 40% mas de ingresos del
+                        calculado en todas sus plataformas.</P>
+                </div>
             </div>
             <div class="div1">
                 <div>
-                <a href=""><h4>Se retrasa salida del GTA 6</h4></a>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi quis, corrupti libero deserunt beatae debitis ullam veritatis officiis error impedit maiores voluptatum, distinctio ab quas dignissimos, quam id voluptatem?</P>
-            </div>
-            <img src="./img/reloj de arena.jpeg" alt="">
+                    <a href="">
+                        <h4>Se retrasa salida del GTA 6</h4>
+                    </a>
+                    <P>El dia de la fecha, la empresa "Rockstars Game" a dado un inesperado aviso a cerca del inminente
+                        retraso en la salida de su ultimo juego, el "Grand Thef Auto 6", dejando asi a todos los
+                        fanaticos de la saga mas que decepcionados.</P>
+                </div>
+                <img src="./img/reloj de arena.jpeg" alt="">
             </div>
             <div class="div1">
                 <img src="./img/cierre.jpeg" alt="">
                 <div>
-                <a href=""><h4>Cierran importante compañia de videojuegos</h4></a>
-                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ullam voluptatem soluta possimus eos numquam libero cum, et dolorum ad consequatur perferendis laborum aliquam, quibusdam eum doloribus, illo atque blanditiis.</P>
-            </div>
+                    <a href="">
+                        <h4>Cierran importante compañia de videojuegos</h4>
+                    </a>
+                    <P>En ultimas instancias se acaba de anunciar que la tan afamada empresa de videojuegos "Santa
+                        Monica" va a cerrar sus puertas definitivamente por una gigantesca perdida en sus acciones y
+                        desplomo de ganancias!</P>
+                </div>
             </div>
             <div class="h555">
-            <a href="./pages/noticias.html"><h5>VER MAS</h5></a>
+                <a href="./pages/noticias.html">
+                    <h5>VER MAS</h5>
+                </a>
             </div>
         </section>
     </main>
     <footer class="grid-contenedor">
         <div class="h333 grid1">
-        <h3>Contactanos</h3>
+            <h3>Contactanos</h3>
         </div>
         <P class="grid2">Les dejamos aqui algunas formas de contactarnos y ubicarnos para su comodidad!</P>
         <h6 class="grid3">GamesStar</h6>
-            <a href="" class="grid4"><img src="./img/whatsapp.png" alt="whatsapp"></a>
-            <a href="" class="grid5"><img src="./img/facebook.png" alt="facebook"></a>
-            <a href="" class="grid6"><img src="./img/instagram.png" alt=""></a>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26769.56472627505!2d-60.6404765!3d-32.9986185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abdc63d37045%3A0xd230a42bb8bac72a!2sHospital%20Roque%20Saenz%20Pe%C3%B1a!5e0!3m2!1ses!2sar!4v1670455137328!5m2!1ses!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="grid7"></iframe>
+        <a href="" class="grid4"><img src="./img/whatsapp.png" alt="whatsapp"></a>
+        <a href="" class="grid5"><img src="./img/facebook.png" alt="facebook"></a>
+        <a href="" class="grid6"><img src="./img/instagram.png" alt=""></a>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26769.56472627505!2d-60.6404765!3d-32.9986185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abdc63d37045%3A0xd230a42bb8bac72a!2sHospital%20Roque%20Saenz%20Pe%C3%B1a!5e0!3m2!1ses!2sar!4v1670455137328!5m2!1ses!2sar"
+            width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="grid7"></iframe>
     </footer>
-    https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
