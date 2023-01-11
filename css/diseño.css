@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,200;1,500&family=Zen+Dots&display=swap');
 
-</style>* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,19 +17,29 @@ header {
 
 nav {
     width: 100%;
+    height: 70px;
 }
 
 nav ul {
     list-style-type: none;
     background: rgb(0, 46, 107);
     background: linear-gradient(90deg, rgba(0, 46, 107, 1) 6%, rgba(0, 212, 255, 1) 94%);
+    height: 70px;
     display: flex;
     justify-content: space-around;
+    margin: 0px;
+    padding: 0PX;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-family: serif;
+}
+
+nav ul li a:hover{
+    color: black;
+    text-decoration-line: overline;
 }
 
 nav ul li {
@@ -59,6 +69,21 @@ h6 {
     border: 2px solid black;
     width: 200px;
     height: 40px;
+    animation-name: aparece;
+    animation-duration: 3s;
+    animation-direction: initial;
+    animation-iteration-count: unset;
+}
+
+@keyframes aparece{
+    from{
+        font-size: 0px;
+        width: 0%;
+        height: 0%;
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .h555 {
@@ -147,7 +172,7 @@ h3 {
     border: 2px dotted red;
     width: 150px;
     height: 25px;
-    padding: 5px;
+    margin: 20px;
     text-align: center;
     font-size: 20px;
 }
@@ -195,6 +220,7 @@ h3 {
 .jueguitos div a {
     text-decoration: none;
     color: black;
+    margin: 25px;
 }
 
 .jueguitos .jueguitos-contenedor div {
@@ -204,11 +230,20 @@ h3 {
     text-align: center;
     margin: 20px;
     display: inline-block;
+    transition: 1s;
+}
+
+.jueguitos .jueguitos-contenedor div:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
 }
 
 .acces1 div a {
     text-decoration: none;
     color: black;
+    margin: 25px;
 }
 
 .acces1 .acces1-contenedor div {
@@ -218,6 +253,14 @@ h3 {
     text-align: center;
     margin: 20px;
     display: inline-block;
+    transition: 1s;
+}
+
+.acces1 .acces1-contenedor div:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75)
 }
 
 .UltimasNoticias {
@@ -234,13 +277,13 @@ h3 {
 }
 
 .jueguitos img {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
 }
 
 .acces1 img {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
 }
 
 .UltimasNoticias img {
@@ -267,8 +310,8 @@ footer a img {
 .div1 {
     display: flex;
     margin: 10px;
-    background: rgb(111,111,111);
-    background: linear-gradient(90deg, rgba(111,111,111,1) 0%, rgba(219,218,218,1) 86%);
+    background: rgb(111, 111, 111);
+    background: linear-gradient(90deg, rgba(111, 111, 111, 1) 0%, rgba(219, 218, 218, 1) 86%);
 }
 
 .jueguitos {
@@ -309,13 +352,14 @@ footer a img {
 }
 
 .juegazos img {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
 }
 
 .juegazos div a {
     text-decoration: none;
     color: black;
+    margin: 25px;
 }
 
 .juegazos div {
@@ -325,6 +369,14 @@ footer a img {
     text-align: center;
     margin: 20px;
     display: inline-block;
+    transition: 1s;
+}
+
+.juegazos div:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
 }
 
 .hero2 {
@@ -363,13 +415,14 @@ footer a img {
 }
 
 .acces2 img {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
 }
 
 .acces2 div a {
     text-decoration: none;
     color: black;
+    margin: 25px;
 }
 
 .acces2 div {
@@ -379,6 +432,14 @@ footer a img {
     text-align: center;
     margin: 20px;
     display: inline-block;
+    transition: 1s;
+}
+
+.acces2 div:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
 }
 
 .hero3 {
