@@ -1,0 +1,32 @@
+/*VARIABLES*/
+
+$color-footer: rgb(34, 114, 164);
+
+/*LISTAS*/
+
+$colores: 
+gray,
+red,
+blueviolet,
+black,
+rgb(72, 72, 72);
+
+
+/*MAPAS*/
+
+$verm:(
+    ancho: 150px,
+    alto: 100%,
+    textt: center,
+    font: 20px,
+);
+
+/*EXTENDS*/
+
+%flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
