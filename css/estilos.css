@@ -139,6 +139,11 @@ header {
     margin: 20px;
     display: inline-block;
     transition: 1s; }
+    .acces1 .acces1-contenedor div:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75); }
     .acces1 .acces1-contenedor div img {
       width: 240px;
       height: 240px; }
